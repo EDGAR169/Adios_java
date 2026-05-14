@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class AdiosJava {
 
 
-static class persona{
-    int yearsOld;
-    String name;
-    int age;
+static class Persona{
+    private int yearsOld;
+    private String name;
+    private int age;
     
-    persona (int yearsOld, String name, int age ){
+    Persona (int yearsOld, String name, int age ){
         this.yearsOld = yearsOld; 
         this.name = name;
         this.age = age;
@@ -17,7 +17,27 @@ static class persona{
         void mostrarDatos(){
         
 
-        System.out.println("Datos de la persona: " + name + yearsOld + age);
+        System.out.println("Datos de la persona: " + name +" " + " " +yearsOld +" " +age);
+        }
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name){
+            this.name = name;
+        }
+        public int getYearsOld(){
+            return yearsOld;
+        }
+        public void setYearsOld(int yearsOld){
+            this.yearsOld = yearsOld;
+        }
+        public int getAge(){
+            return age;
+        }
+        public void setAge(int age){
+            this.age = age;
+        }
         
 
         
@@ -27,7 +47,7 @@ static class persona{
     
 
 
-}
+
 
 
 
@@ -44,9 +64,12 @@ static class persona{
 
     
        System.out.println("La resta de los dos numeros es: " + restar(numero1, numero2));
+       scanner.close();
     }
 
     public static int restar(int numero1, int numero2) {
         return numero1 - numero2;
+        
     }
+    
 }
