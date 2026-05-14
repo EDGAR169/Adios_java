@@ -1,6 +1,38 @@
-;
+
 import java.util.Scanner;
 public class AdiosJava {
+
+
+static class persona{
+    int yearsOld;
+    String name;
+    int age;
+    
+    persona (int yearsOld, String name, int age ){
+        this.yearsOld = yearsOld; 
+        this.name = name;
+        this.age = age;
+         }
+
+        void mostrarDatos(){
+        
+
+        System.out.println("Datos de la persona: " + name + yearsOld + age);
+        
+
+        
+
+    
+    }
+    
+
+
+}
+
+
+
+
+
     public static void main(String[] args){
         int numero1, numero2;
         Scanner scanner = new Scanner (System.in);
