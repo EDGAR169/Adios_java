@@ -1,6 +1,11 @@
 
+
 import java.util.Scanner;
+
+
+
 public class AdiosJava {
+
 
 
 static class Persona{
