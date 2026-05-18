@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 
 
+
 public class AdiosJava {
 
 
@@ -76,5 +77,8 @@ static class Persona{
         return numero1 - numero2;
         
     }
+    public static int multiplicar (int n1, int n2){
+    return n1 * n2;
+}
     
 }
