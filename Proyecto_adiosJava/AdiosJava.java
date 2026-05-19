@@ -79,6 +79,13 @@ static class Persona{
     }
     public static int multiplicar (int n1, int n2){
     return n1 * n2;
+
+    
+    }
+    public static double dividir (double n1, double n2){
+
+        return n1 /n2;
+}
 }
     
-}
+
